@@ -26,6 +26,9 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 #define DISPLAY_I2C_ADDRESS 0x3C
 
+#define BLACK 0x00000000
+
+
 static ColorRecognitionTCS230 *tcs230;
 static uint32_t white_bal[3];
 static uint32_t black_bal[3];
