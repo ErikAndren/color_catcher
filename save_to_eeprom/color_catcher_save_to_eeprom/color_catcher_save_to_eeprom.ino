@@ -15,12 +15,13 @@
 
 #define DISPLAY_I2C_ADDRESS 0x3C
 
-#define LED_PIN 2
-#define OUT_PIN 3
-#define S2_PIN  4
-#define S3_PIN  5
-#define S1_PIN  6
-#define S0_PIN  7
+#define LED_PIN A0
+#define OUT_PIN  3
+#define S0_PIN  A1
+#define S1_PIN  A2
+#define S2_PIN  10
+#define S3_PIN   9
+
 
 static ColorRecognitionTCS230 *tcs230;
 static uint32_t white_bal[3];
